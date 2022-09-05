@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/towtruck.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2;
+  color: mintcream;
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 40%;
+  height: 100%;
+  border-radius: .3rem;
+  background-color: rgba(49, 25, 153, 0.692);
+  color: mintcream;
+  font-family: 'Roboto';
+}
+
+
+label {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.form-control {
+  height: 2rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+label {
+  margin-left: 10%;
+}
+.input-textarea {
+  height: 7rem;
+  max-height: 100%;
+  width: 80%;
+  max-width: 80%;
+  resize: none;
+  margin-left: 10%;
+}
+
+.form-group p {
+  text-align: left;
+  margin-left: 10%;
+}
+.form-group button {
+  margin-left: 10%;
+}
+
+form {
+  padding-top: 10px;
+}
